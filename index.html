@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Metamask Clone</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Wallet</a></li>
+        <li><a href="#">New Inscriptions</a></li>
+        <li><a href="#">Market</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="content">
+      <div class="container">
+        <h1 class="title">Let's Get Started</h1>
+        <p class="inscriptions">Inscriptions Made: <span id="inscriptionCount">999</span></p>
+        <div class="image-container">
+          <img src="https://res.cloudinary.com/tonicpow/image/fetch/c_pad,g_center,h_300,w_300/f_auto/https://ordinals.gorillapool.io/api/files/inscriptions/44b4b14e0534adc49363c223d1a66b348a36c300560426fe2c886dd0dc638304_0" alt="New Inscription" class="inscription-image">
+        </div>
+        <div class="cta">
+          <button class="cta-button">Create a Wallet</button>
+          <button class="cta-button">Import Wallet</button>
+        </div>
+        <div class="terms">
+          <input type="checkbox" id="termsCheckbox">
+          <label for="termsCheckbox">I agree to the <a href="#">Terms and Conditions</a></label>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
