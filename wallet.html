@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Wallet</title>
+  <style>
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar bg-gray-100 shadow">
+      <div class="container mx-auto px-4">
+        <ul class="flex justify-center py-4">
+          <li class="mr-6"><a href="wallet.html" class="text-gray-700 font-bold">Wallet</a></li>
+          <li class="mr-6"><a href="inscribe.html" class="text-gray-700">Inscribe</a></li>
+          <li><a href="#" class="text-gray-700">Market</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="p-4">
+    <section class="container mx-auto max-w-md">
+      <h1 class="text-2xl font-bold mb-4 text-center">Your Balance</h1>
+      <div class="bg-white p-6 rounded shadow-md">
+        <p class="text-xl">Balance: $500</p>
+        <button class="mt-4 flex items-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQksZUr_lf4HGLvPX-A-N-KOH7eoQX_XG4eZnMkA_fh9WzM0UYQt0iINN_jF8QkGOw8q2U&usqp=CAU" alt="Bitcoin Logo" class="h-5 w-5 mr-2">
+          Add Money
+        </button>
+        <button class="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Cash Out</button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
